@@ -1,0 +1,18 @@
+.squareBox{
+    border: .1rem solid black;
+    border-radius: 2%;
+    display: grid;
+    place-content: center;
+    width: 20rem;
+    margin: 2rem auto;
+    padding: 5rem 2rem;
+    box-shadow: 0rem  0rem .5rem #888888;
+}
+
+.withColorP{
+    background: white;
+    border: 0.1rem solid black;
+    box-shadow: 0rem  0rem .5rem #888888;
+    border-radius: .25rem;
+    padding: .5rem;
+}

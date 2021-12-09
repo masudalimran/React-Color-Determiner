@@ -1,0 +1,27 @@
+.changeColorForm {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin: 0.5rem auto;
+    padding: 0 0.5rem 0.25rem;
+}
+
+.changeColorForm label {
+    position: absolute;
+    left: -99999px;
+}
+
+.changeColorForm input[type='text'] {
+    max-width: 10rem;
+    min-height: 30px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: .1rem solid #ccc;
+    margin: auto;
+    text-align: center;
+}
+
+.changeColorForm input[type='text']:focus {
+    border: .1rem solid #555;
+}
